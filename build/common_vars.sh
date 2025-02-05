@@ -3,4 +3,5 @@ export KBUILD_USERNAME=lucas
 export BUILD_HOSTNAME=yuki
 export KBUILD_HOSTNAME=yuki
 export TZ=America/Sao_Paulo
+export ALLOW_MISSING_DEPENDENCIES=true
 export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
