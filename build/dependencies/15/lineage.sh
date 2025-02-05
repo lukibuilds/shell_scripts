@@ -1,3 +1,4 @@
+git clone https://github.com/LineageOS/android_device_lineage_sepolicy --depth 1 -b lineage-22.1 device/lineage/sepolicy
 git clone https://github.com/LineageOS/android_hardware_samsung --depth 1 -b lineage-22.1 hardware/samsung
 git clone https://github.com/LineageOS/android_hardware_samsung_slsi-linaro_config --depth 1 -b lineage-22.1 hardware/samsung_slsi-linaro/config
 git clone https://github.com/LineageOS/android_hardware_samsung_slsi-linaro_exynos --depth 1 -b lineage-22.1 hardware/samsung_slsi-linaro/exynos
