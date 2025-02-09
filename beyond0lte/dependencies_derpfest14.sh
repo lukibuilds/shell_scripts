@@ -5,6 +5,7 @@ directories=(
     "device/samsung/beyond0lte"
     "device/samsung/exynos9820-common"
     "vendor/samsung/beyond0lte"
+    "vendor/derp/signing/keys"
     "vendor/samsung/exynos9820-common"
     "kernel/samsung/exynos9820"
     "hardware/samsung"
@@ -33,6 +34,7 @@ git clone https://github.com/LineageOS/android_hardware_samsung_slsi-linaro_inte
 git clone https://github.com/LineageOS/android_hardware_samsung_slsi-linaro_codec2 --depth 1 -b lineage-21 hardware/samsung_slsi-linaro/codec2
 git clone https://github.com/LineageOS/android_device_samsung_slsi_sepolicy --depth 1 -b lineage-21 device/samsung_slsi/sepolicy
 git clone https://github.com/lukibuilds/derpfest_device_samsung_beyond0lte/ --depth 1 -b fourteen device/samsung/beyond0lte
+git clone https://github.com/lukibuilds/android_vendor_lineage-priv_keys --depth 1 -b main vendor/derp/signing/keys
 git clone https://github.com/lukibuilds/derpfest_device_samsung_exynos9820-common --depth 1 -b fourteen device/samsung/exynos9820-common
 git clone https://github.com/linux4-bringup-priv/android_vendor_samsung_beyond0lte/ --depth 1 -b lineage-21.0 vendor/samsung/beyond0lte
 git clone https://github.com/linux4-bringup-priv/android_vendor_samsung_exynos9820-common/ --depth 1 -b lineage-21.0 vendor/samsung/exynos9820-common
