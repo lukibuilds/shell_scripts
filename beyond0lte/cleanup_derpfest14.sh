@@ -1,5 +1,6 @@
 #!/bin/bash
 directories=(
+    "device/lineage/sepolicy"
     "device/derp/sepolicy"
     "device/lineage/sepolicy"
     "device/samsung_slsi/sepolicy"
