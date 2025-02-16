@@ -1,3 +1,4 @@
+git clone https://github.com/LineageOS/android_device_lineage_sepolicy --depth 1 -b lineage-21.0 device/lineage/sepolicy
 git clone https://github.com/DerpFest-AOSP/device_derp_sepolicy --depth 1 -b 14 device/derp/sepolicy
 git clone https://github.com/LineageOS/android_hardware_samsung --depth 1 -b lineage-21 hardware/samsung
 git clone https://github.com/LineageOS/android_hardware_samsung_slsi-linaro_config --depth 1 -b lineage-21 hardware/samsung_slsi-linaro/config
