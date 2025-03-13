@@ -4,4 +4,4 @@ curl https://raw.githubusercontent.com/lukibuilds/shell_scripts/refs/heads/main/
 source build/envsetup.sh
 croot
 lunch derp_beyond0lte-userdebug
-mka bacon
+mka bacon -j$(nproc --all)
